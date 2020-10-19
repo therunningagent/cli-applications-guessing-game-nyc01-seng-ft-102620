@@ -1,5 +1,4 @@
 require 'pry'
-# Code your solution here!
 
 def random_number
   rand(6) + 1 
