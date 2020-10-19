@@ -19,6 +19,7 @@ def comparison
     puts "Goodbye!"
   else 
     puts "Sorry! Teh computer guessed #{store_random_number}."
+  end 
 end 
 
 def run_guessing_game
