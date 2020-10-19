@@ -23,8 +23,5 @@ def comparison (store_random_number, user_input)
 end 
 
 def run_guessing_game
-  store_random_number = random_number
-  guess_number
-  get_user_input
-  comparison(store_random_number, user_input)
+  
 end 
