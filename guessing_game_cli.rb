@@ -1,7 +1,7 @@
 require 'pry'
 
 def random_number
-  rand(6) + 1 
+  store_random_number = rand(6) + 1 
 end 
 
 def guess_number
@@ -9,11 +9,15 @@ def guess_number
 end 
 
 def get_user_input
-  gets.chomp
+  user_input = gets.chomp
+end 
+
+def comparison
+  if 
 end 
 
 def run_guessing_game
-  store_random_number = random_number
+  random_number
   guess_number
   get_user_input
 end 
