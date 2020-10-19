@@ -18,5 +18,5 @@ def run_guessing_game
   
   random_number = rand(6) + 1 
   user_input = gets.chomp 
-  binding.pry 
+  
 end 
