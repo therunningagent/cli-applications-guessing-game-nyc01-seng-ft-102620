@@ -2,7 +2,6 @@ require 'pry'
 
 def random_number
   rand(6) + 1 
-  binding.pry
 end 
 
 def get_user_input
