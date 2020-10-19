@@ -12,7 +12,7 @@ def get_user_input
   user_input = gets.chomp
 end 
 
-def comparison
+def comparison (store_random_number, user_input)
   if store_random_number == user_input
     puts "You guessed the correct number!"
   elsif user_input == "exit"
